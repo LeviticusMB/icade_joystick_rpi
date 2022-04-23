@@ -1,8 +1,8 @@
-obj-m := mk_arcade_joystick_rpi.o
+obj-m := icade_joystick_rpi.o
 KVERSION := `uname -r`
 
 ifneq (,$(findstring -v7, $(KVERSION)))
-CFLAGS_mk_arcade_joystick_rpi.o := -DRPI2
+CFLAGS_icade_joystick_rpi.o := -DRPI2
 endif
 
 all:

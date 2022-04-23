@@ -1,6 +1,6 @@
 #!/bin/sh
 
-NAME=mk_arcade_joystick_rpi
+NAME=icade_joystick_rpi
 VERSION=$MKVERSION
 set -e
 
